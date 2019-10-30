@@ -27,7 +27,7 @@ def get_city():
 
     city = input()
     city = city.lower()
-    #handling errors
+    #handling errors iv city
     while True:
         if city == "chicago":
             return 'chicago'
@@ -137,20 +137,20 @@ def time_stats(df):
        popular_month = df['month'].mode()[0]
        print('Most Popular Start month:', popular_month)
     except:
-       print('sorry')
+       print('Sorry I Can\'t answer this')
 
     # find the most popular day
     try:
        popular_day = df['day_of_week'].mode()[0]
        print('Most Popular Start day_of_week:', popular_day)
     except:
-       print('sorry')
+       print('Sorry I Can\'t answer this')
     # find the most popular hour
     try:
        popular_hour = df['hour'].mode()[0]
        print('Most Popular Start Hour:', popular_hour)
     except:
-        print('sorry')
+        print('Sorry I Can\'t answer this')
 
 
 def station_stats(df):
