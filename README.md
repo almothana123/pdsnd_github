@@ -2,14 +2,15 @@
 Include the date you created this project and README file.
 
 ### Project Title
-Replace the Project Title
+bikeshare
 
 ### Description
-Describe what your project is about and what it does
+analyze data using python
 
 ### Files used
-Include the files used
-
+new_york_city.csv
+washington.csv
+chicago.csv
+bikeshare.py
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
