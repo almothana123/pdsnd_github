@@ -27,7 +27,7 @@ def get_city():
 
     city = input()
     city = city.lower()
-    #handling errors
+    #handling errors iv city
     while True:
         if city == "chicago":
             return 'chicago'
